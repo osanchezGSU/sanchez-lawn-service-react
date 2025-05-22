@@ -1,11 +1,11 @@
 import React from "react";
+import HelmetComponent from "../components/HelmetComponent";
 
-function Home () {
+export default function Home() {
     return(
         <>
-            <p>Home</p>
+            <HelmetComponent title="Home" description="Home Page"/>
+            <p>Home Page</p>
         </>
     )
 }
-
-export default Home;
