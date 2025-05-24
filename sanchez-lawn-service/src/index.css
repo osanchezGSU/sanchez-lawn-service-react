@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Rubik", sans-serif;
+
   font-size: 18px;
-  color: var(--dark-gray);
 }
 
 
@@ -21,4 +22,61 @@ main {
 header{
   height: 10vh;
   width: 100%;
+}
+.light{
+  font-weight: var(--light);
+}
+.regular{
+  font-weight: var(--regular);
+}
+.medium{
+  font-weight: var(--medium);
+}
+.semiBold{
+  font-weight: var(--semiBold);
+}
+.bold{
+  font-weight: var(--bold);
+}
+.extraBold{
+  font-weight: var(--extraBold);
+}
+h1{
+  font-size: var(--fs-5);
+}
+h2{
+  font-size: var(--fs-4);
+}
+h3{
+  font-size: var(--fs-2);
+}
+p{
+  font-size: var(--fs-1);
+}
+
+
+/* Tablets */
+@media (min-width: 768px) {
+  h1{
+    font-size: var(--fs-7);
+  } 
+  h2{
+    font-size: var(--fs-6);
+  }
+  h3{
+    font-size: var(--fs-5);
+  }
+  p{
+    font-size: var(--fs-2);
+  }
+}
+
+/* Laptops */
+@media (min-width: 1024px) {
+  
+}
+
+/* Desktops */
+@media (min-width: 1441px) {
+  /* Desktop styles here */
 }
